@@ -1,0 +1,2 @@
+# smallpt-nextEvent-FPC
+smallptのサイトに有るNextEventEstimate版explicit.cppのフリーパスカルによるポート
