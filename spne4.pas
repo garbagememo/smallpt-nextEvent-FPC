@@ -204,9 +204,9 @@ DebugY:=y;
     IF y mod 10 =0 THEN writeln('y=',y);
     FOR x := 0 TO w - 1 DO BEGIN
 DebugX:=X;
+      r:=CreateVec(0, 0, 0);
+      tColor:=ZeroVec;
       FOR sy := 0 TO 1 DO BEGIN
-        r:=CreateVec(0, 0, 0);
-        tColor:=ZeroVec;
         FOR sx := 0 TO 1 DO BEGIN
           FOR s := 0 TO samps - 1 DO BEGIN
             r1 := 2 * random;
